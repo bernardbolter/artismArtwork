@@ -14,6 +14,7 @@ final class Init
   public static function get_services() {
     return array(
       Base\SettingsLinks::class,
+      Base\CPT::class,
       Base\Enqueue::class,
       Pages\Admin::class
     );
