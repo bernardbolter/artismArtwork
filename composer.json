@@ -1,0 +1,19 @@
+{
+  "name": "bemajor/artism-artwork",
+  "description": "Wordprss plugin for artwork",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Bernard John Bolter IV",
+      "email": "b@bernardbolter.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Inc\\": "./inc"
+    }
+  }
+}
